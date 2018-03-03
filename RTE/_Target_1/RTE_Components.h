@@ -16,6 +16,5 @@
  */
 #define CMSIS_device_header "nrf.h"
 
-#define SOFTDEVICE_PRESENT
 
 #endif /* RTE_COMPONENTS_H */

@@ -1,9 +1,9 @@
 --cpu=Cortex-M4.fp
 ".\objects\main.o"
-"..\..\..\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+".\objects\configuration.o"
+".\objects\interrupts.o"
 ".\objects\arm_startup_nrf52.o"
 ".\objects\system_nrf52.o"
-".\objects\nrf_delay.o"
 ".\objects\nrf_nvmc.o"
 --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

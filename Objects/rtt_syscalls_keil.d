@@ -1,0 +1,10 @@
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers_External\1.2.1-2.alpha\segger_rtt\RTT_Syscalls_KEIL.c
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_sys.h
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers_External\1.2.1-2.alpha\segger_rtt\SEGGER_RTT.h
+.\objects\rtt_syscalls_keil.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers_External\1.2.1-2.alpha\segger_rtt\SEGGER_RTT_Conf.h

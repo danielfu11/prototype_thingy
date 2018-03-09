@@ -2,9 +2,17 @@
 ".\objects\main.o"
 ".\objects\configuration.o"
 ".\objects\interrupts.o"
+".\objects\nrf_drv_pdm.o"
+".\objects\nrf_drv_common.o"
+".\objects\nrf_strerror.o"
+".\objects\nrf_log_backend_serial.o"
+".\objects\nrf_log_frontend.o"
 ".\objects\arm_startup_nrf52.o"
 ".\objects\system_nrf52.o"
 ".\objects\nrf_nvmc.o"
+".\objects\rtt_syscalls_keil.o"
+".\objects\segger_rtt.o"
+".\objects\segger_rtt_printf.o"
 --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\prototype_thingy.map" -o .\Objects\prototype_thingy.axf

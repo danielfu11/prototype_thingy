@@ -1,5 +1,5 @@
 .\objects\configuration.o: configuration.c
-.\objects\configuration.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal\nrf_gpio.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\hal\nrf_gpio.h
 .\objects\configuration.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf.h
 .\objects\configuration.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf52.h
 .\objects\configuration.o: F:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h
@@ -13,7 +13,19 @@
 .\objects\configuration.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf51_to_nrf52.h
 .\objects\configuration.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf52_name_change.h
 .\objects\configuration.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\compiler_abstraction.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\hal\nrf_peripherals.h
+.\objects\configuration.o: F:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf52832_peripherals.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\libraries\util\nrf_assert.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\libraries\util\app_error.h
+.\objects\configuration.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\configuration.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\configuration.o: .\RTE\nRF_Drivers\nRF52832_xxAA\nrf_clock.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\libraries\util\sdk_errors.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\softdevice\s140\headers\nrf_error.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\project\pca20020_s132\config\sdk_config.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\libraries\util\nordic_common.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\libraries\util\app_error_weak.h
+.\objects\configuration.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\hal\nrf_clock.h
 .\objects\configuration.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\configuration.o: configuration.h
+.\objects\configuration.o: ..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\hal\nrf_pdm.h

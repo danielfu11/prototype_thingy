@@ -443,12 +443,13 @@ ARM Macro Assembler    Page 7
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=.\objects\arm_startup_nrf52.d -o.\objects\arm_startup_nrf52.o -
 I.\RTE\Device\nRF52832_xxAA -I.\RTE\_Target_1 -I.\RTE\nRF_Drivers\nRF52832_xxAA
- -IF:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include -IF:\Keil_v5\ARM\PACK\Nord
-icSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include -IF:\Keil_v5\ARM\PAC
-K\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal --predefine="__EVAL SETA 1"
- --predefine="__UVISION_VERSION SETA 524" --predefine="_RTE_ SETA 1" --predefin
-e="NRF52 SETA 1" --list=.\listings\arm_startup_nrf52.lst RTE\Device\nRF52832_xx
-AA\arm_startup_nrf52.s
+ -I.\RTE\nRF_Libraries\nRF52832_xxAA -IF:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSI
+S\Include -IF:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2
+\Device\Include -IF:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.a
+lpha\hal -IF:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers_External\1.2.1-2
+.alpha\segger_rtt --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SE
+TA 524" --predefine="_RTE_ SETA 1" --predefine="NRF52 SETA 1" --list=.\listings
+\arm_startup_nrf52.lst RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s
 
 
 

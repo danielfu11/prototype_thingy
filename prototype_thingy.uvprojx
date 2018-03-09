@@ -334,9 +334,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define></Define>
+              <Define>NRF_LOG_ENABLED=1, NRF_LOG_USES_RTT=1</Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>..\nRF5_SDK_12.3.0_d7731ad\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\pdm;..\Nordic-Thingy52-FW\external\sdk13\components\libraries\util;..\Nordic-Thingy52-FW\external\sdk13\components\softdevice\s140\headers;..\Nordic-Thingy52-FW\project\pca20020_s132\config;..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\common;..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\hal;..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log;..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log\src;.\RTE\nRF_Libraries\nRF52832_xxAA;..\Nordic-Thingy52-FW\external\sdk13\components\libraries\strerror;..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\hal</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -405,6 +405,96 @@
               <FileType>5</FileType>
               <FilePath>.\interrupts.h</FilePath>
             </File>
+            <File>
+              <FileName>nrf_drv_pdm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\nRF5_SDK_12.3.0_d7731ad\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\pdm\nrf_drv_pdm.c</FilePath>
+            </File>
+            <File>
+              <FileName>sdk_common.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\util\sdk_common.h</FilePath>
+            </File>
+            <File>
+              <FileName>sdk_errors.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\util\sdk_errors.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_error.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\softdevice\s140\headers\nrf_error.h</FilePath>
+            </File>
+            <File>
+              <FileName>sdk_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\project\pca20020_s132\config\sdk_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_drv_common.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\common\nrf_drv_common.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_drv_common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\common\nrf_drv_common.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_peripherals.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\hal\nrf_peripherals.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log\nrf_log.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_log_internal.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log\src\nrf_log_internal.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_strerror.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\strerror\nrf_strerror.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_strerror.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\strerror\nrf_strerror.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_log_backend.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log\nrf_log_backend.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_log_ctrl.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log\nrf_log_ctrl.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_log_ctrl_internal.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log\src\nrf_log_ctrl_internal.h</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_log_backend_serial.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log\src\nrf_log_backend_serial.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_log_frontend.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\libraries\log\src\nrf_log_frontend.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_uart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Nordic-Thingy52-FW\external\sdk13\components\drivers_nrf\hal\nrf_uart.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -415,6 +505,9 @@
         </Group>
         <Group>
           <GroupName>::nRF_Drivers</GroupName>
+        </Group>
+        <Group>
+          <GroupName>::nRF_Libraries</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -501,6 +594,12 @@
           <targetInfo name="Target 1"/>
         </targetInfos>
       </component>
+      <component Cclass="nRF_Libraries" Cgroup="segger_rtt" Cvendor="NordicSemiconductor" Cversion="1.2.1-2.alpha" condition="segger_rtt">
+        <package name="nRF_Drivers_External" schemaVersion="1.2" supportContact="http://www.nordicsemi.com/About-us/Contact-us" url="http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers_External/" vendor="NordicSemiconductor" version="1.2.1-2.alpha"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </component>
     </components>
     <files>
       <file attr="config" category="source" name="bsp\bsp.c" version="11.0.0-2.alpha">
@@ -563,6 +662,38 @@
         <instance index="0">RTE\nRF_Drivers\nRF52832_xxAA\nrf_ppi.h</instance>
         <component Cclass="nRF_Drivers" Cgroup="nrf_ppi" Cvendor="NordicSemiconductor" Cversion="4.0.0-2.alpha" condition="nrf_ppi"/>
         <package name="nRF_Drivers" schemaVersion="1.2" supportContact="http://www.nordicsemi.com/About-us/Contact-us" url="http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers/" vendor="NordicSemiconductor" version="4.0.0-2.alpha"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </file>
+      <file attr="config" category="source" name="segger_rtt\SEGGER_RTT.c" version="1.2.1-2.alpha">
+        <instance index="0">RTE\nRF_Libraries\nRF52832_xxAA\SEGGER_RTT.c</instance>
+        <component Cclass="nRF_Libraries" Cgroup="segger_rtt" Cvendor="NordicSemiconductor" Cversion="1.2.1-2.alpha" condition="segger_rtt"/>
+        <package name="nRF_Drivers_External" schemaVersion="1.2" supportContact="http://www.nordicsemi.com/About-us/Contact-us" url="http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers_External/" vendor="NordicSemiconductor" version="1.2.1-2.alpha"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </file>
+      <file attr="config" category="header" name="segger_rtt\SEGGER_RTT.h" version="1.2.1-2.alpha">
+        <instance index="0">RTE\nRF_Libraries\nRF52832_xxAA\SEGGER_RTT.h</instance>
+        <component Cclass="nRF_Libraries" Cgroup="segger_rtt" Cvendor="NordicSemiconductor" Cversion="1.2.1-2.alpha" condition="segger_rtt"/>
+        <package name="nRF_Drivers_External" schemaVersion="1.2" supportContact="http://www.nordicsemi.com/About-us/Contact-us" url="http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers_External/" vendor="NordicSemiconductor" version="1.2.1-2.alpha"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </file>
+      <file attr="config" category="header" name="segger_rtt\SEGGER_RTT_Conf.h" version="1.2.1-2.alpha">
+        <instance index="0">RTE\nRF_Libraries\nRF52832_xxAA\SEGGER_RTT_Conf.h</instance>
+        <component Cclass="nRF_Libraries" Cgroup="segger_rtt" Cvendor="NordicSemiconductor" Cversion="1.2.1-2.alpha" condition="segger_rtt"/>
+        <package name="nRF_Drivers_External" schemaVersion="1.2" supportContact="http://www.nordicsemi.com/About-us/Contact-us" url="http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers_External/" vendor="NordicSemiconductor" version="1.2.1-2.alpha"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </file>
+      <file attr="config" category="source" name="segger_rtt\SEGGER_RTT_printf.c" version="1.2.1-2.alpha">
+        <instance index="0">RTE\nRF_Libraries\nRF52832_xxAA\SEGGER_RTT_printf.c</instance>
+        <component Cclass="nRF_Libraries" Cgroup="segger_rtt" Cvendor="NordicSemiconductor" Cversion="1.2.1-2.alpha" condition="segger_rtt"/>
+        <package name="nRF_Drivers_External" schemaVersion="1.2" supportContact="http://www.nordicsemi.com/About-us/Contact-us" url="http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers_External/" vendor="NordicSemiconductor" version="1.2.1-2.alpha"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
         </targetInfos>
